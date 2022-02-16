@@ -4,8 +4,9 @@
 
 ## To Do
 
-- [ ] Add Link Locations Where Needed
-- [ ] Dropdown Menu in Nav bar
+- [x] Add Link Locations Where Needed
+- [ ] Move all downloadable files from mediafire to a download folder in the repo
+- [ ] Add Dropdown Menu in Nav bar
 - [ ] Add Tablet View Support
 - [ ] Add Phone View Support
 
