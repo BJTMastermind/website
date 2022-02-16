@@ -1,12 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-}
-
 .container {
     display: grid;
     height: 100vh;
@@ -20,56 +11,7 @@ body {
     grid-gap: 0.2rem;
 }
 
-nav {
-    background: #ffffff;
-    color: #8e8e8e;
-    position: fixed;
-    width: 100%;
-    height: 130px;
-    z-index: 1;
-    animation: nav-shrink 0s;
-}
-
-nav img {
-    scale: 9.3%;
-    margin: -475px -458px;
-}
-
-nav p {
-    font-size: 14px;
-    position: relative;
-    text-transform: uppercase;
-    display: inline;
-    padding-right: 30px;
-    left: 1286px;
-    bottom: 60px;
-}
-
-nav p a {
-    color: #8e8e8e;
-    text-decoration: none;
-}
-
-.nav-space {
-    grid-area: nav;
-    width: 100%;
-    height: 180px;
-}
-
-banner {
-    background-image: url("../images/backgrounds/banner.png");
-    background-position: 50% 50%;
-    background-size: cover;
-    grid-area: banner;
-}
-
 .title {
-    position: relative;
-    text-align: center;
-    color: #ddbd52;
-    font-size: 3em;
-    font-weight: bold;
-    line-height: 1.3;
     top: 80px;
 }
 
@@ -110,21 +52,6 @@ main {
 
 footer {
     grid-area: footer;
-}
-
-/* Navbar shrink animation */
-nav:not([value="0"]) {
-    height: 80px;
-}
-
-nav:not([value="0"]) img {
-    scale: 4.7%;
-    margin: -500px -483px;
-}
-
-nav:not([value="0"]) p {
-    left: 1338px;
-    bottom: 35px;
 }
 
 /* Invert Github Logo if darkreader dark mode is being used */
