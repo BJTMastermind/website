@@ -4,6 +4,7 @@
 
 ## To Do
 
+- [ ] Add Link Locations Where Needed
 - [ ] Dropdown Menu in Nav bar
 - [ ] Add Tablet View Support
 - [ ] Add Phone View Support
