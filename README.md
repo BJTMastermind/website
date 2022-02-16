@@ -1,29 +1,14 @@
-<h1 align="center">Template Repository</h1>
+<h1 align="center">My Website</h1>
 
-  A Template Repository That I Can Use to Make New Repositories I Make in The Future Easier.                                                                                         
+  This is the repository that contains the source code for my website
 
-## Plan To Add / To Do
+## To Do
 
-- [ ] Item 1
-- [ ] Item 2
-- [ ] Item 3
+- [ ] Dropdown Menu in Nav bar
+- [ ] Add Tablet View Support
+- [ ] Add Phone View Support
 
-## How To Use (UI)
-
-Coming Soon.
-
-## How To Use (Command Line)
+## Live Site Link
 
 Coming Soon.
 
-## Minimum \<Insert Language Here> Version
-
-* Version of Language 
-
-## About This Project
-
-This is a template repository that I can use to make new repositories I make in the future easier.
-
-# Screen Shots
-
-Coming Soon.
