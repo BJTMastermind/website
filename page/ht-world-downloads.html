@@ -14,31 +14,19 @@
     </head>
     <body>
         <div class="container">
-            <!-- value="0" is a custom value that stores the result of window.scrollY from Javascript. (Used by the css) -->
-            <nav id="scrolldata" value="0">
-                <a href="../index.html"><img src="../images/nav-and-tilebars/logo.png"></a>
-                <p class="home-link"><a href="../index.html">Home</a></p>
-                <p class="about-link"><a href="./about.html">About</a></p>
-                <p class="yt-link"><a href="https://www.youtube.com/c/BJTMastermindGames/videos" target="_blank">My Videos</a></p>
-                <p class="mc-dropdown"><a href="./temp-minecraft.html">Minecraft</a></p>
-                <p class="ht-dropdown"><a href="./temp-hytale.html">Hytale</a></p>
-            </nav>
+            <common-nav></common-nav>
             <div class="nav-space"></div>
             <banner>
                 <h2 class="title">Hytale<br> World Downloads</h2>
             </banner>
             <main>
-                <p align="center" style="padding-top:65px;">On This Page, You Can Download Any Of My Minecraft Worlds.</p>
+                <p align="center" style="padding-top:65px;">On this page, you can download any of my Hytale worlds.</p>
                 <div class="content">
-                    <p>|List Of Hytale World Downloads|</p>
+                    <p>|<b>List Of Hytale World Downloads</b>|</p>
                 </div>
             </main>
-            <footer>
-                <hr>
-                <br>
-                <h4 align="center">Hosted on <br><a href="https://github.com/BJTMastermind/website" target="_blank"><img src="../images/github-logo-footer.png" width="75px"></a></h4>
-            </footer>
+            <common-footer></common-footer>
         </div>
-        <script type="text/javascript" src="../js/detectScroll.js"></script>
+        <script src="../js/commonComponents.js"></script>
     </body>
 </html>

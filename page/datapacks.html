@@ -14,23 +14,15 @@
     </head>
     <body>
         <div class="container">
-            <!-- value="0" is a custom value that stores the result of window.scrollY from Javascript. (Used by the css) -->
-            <nav id="scrolldata" value="0">
-                <a href="../index.html"><img src="../images/nav-and-tilebars/logo.png"></a>
-                <p class="home-link"><a href="../index.html">Home</a></p>
-                <p class="about-link"><a href="./about.html">About</a></p>
-                <p class="yt-link"><a href="https://www.youtube.com/c/BJTMastermindGames/videos" target="_blank">My Videos</a></p>
-                <p class="mc-dropdown"><a href="./temp-minecraft.html">Minecraft</a></p>
-                <p class="ht-dropdown"><a href="./temp-hytale.html">Hytale</a></p>
-            </nav>
+            <common-nav></common-nav>
             <div class="nav-space"></div>
             <banner>
                 <h2 class="title">Datapacks</h2>
             </banner>
             <main>
-                <p align="center" style="padding-top:65px;">On This Page, You Can Download Any Of My Minecraft Worlds.</p>
+                <p align="center" style="padding-top:65px;">On this page, you can download any of my Datapacks.</p>
                 <div class="content">
-                    <p>|List of function/datapack downloads|</p>
+                    <p><b>|List of function/datapack downloads|</b></p>
                     <p class="link">Vanilla Automated 1.16.4+: <a href="http://www.vanillaexpansion.weebly.com/newsdownload.html" target="_blank">Download</a></p>
                     <hr class="shortbar"><br>
                     <p class="link">Achievements Ported 1.12 - 1.12.2: <a href="http://www.mediafire.com/file/afbsd55cx2xf15p/Achievements_in_1.12.X.zip" target="_blank">Download</a><br>Achievements Ported 1.13+: <a href="http://www.mediafire.com/file/ydvvwmlu7o5c6xg/Achievements_in_1.13.X.zip" target="_blank">Download</a></p>
@@ -45,12 +37,8 @@
                     <hr class="shortbar"><br>
                 </div>
             </main>
-            <footer>
-                <hr>
-                <br>
-                <h4 align="center">Hosted on <br><a href="https://github.com/BJTMastermind/website" target="_blank"><img src="../images/github-logo-footer.png" width="75px"></a></h4>
-            </footer>
+            <common-footer></common-footer>
         </div>
-        <script type="text/javascript" src="../js/detectScroll.js"></script>
+        <script src="../js/commonComponents.js"></script>
     </body>
 </html>

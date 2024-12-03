@@ -67,7 +67,6 @@ main {
 .slideshow .slide-2 {
     position: relative;
     bottom: 543.3px;
-    animation: slideshow 8s infinite normal;
 }
 
 table {
@@ -95,12 +94,6 @@ table {
 
 footer {
     grid-area: footer;
-}
-
-/* Slideshow Animation */
-@keyframes slideshow {
-    0%, 40% {visibility: visible;}
-    60%, 100% {visibility: hidden;}
 }
 
 /* Invert Github Logo if darkreader dark mode is being used */
